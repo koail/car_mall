@@ -19,8 +19,8 @@
 
 ### 项目可能会遇到的问题
 
-internal/modules/cjs/loader.js:583
-    throw err;
+# internal/modules/cjs/loader.js:583
+#    throw err;
     ^
 
 Error: Cannot find module 'chalk'
@@ -37,9 +37,9 @@ Error: Cannot find module 'chalk'
 npm ERR! code ELIFECYCLE
 
 解决方法：
-1.到项目文件夹下，删除node_modules文件和package-lock.json文件。注意不是package.json
-2.在项目下运行npm install
-3.继续运行npm run dev(vue3是npm run serve)
+* 到项目文件夹下，删除node_modules文件和package-lock.json文件。注意不是package.json
+* 在项目下运行npm install
+* 继续运行npm run dev(vue3是npm run serve)
 
 
 
